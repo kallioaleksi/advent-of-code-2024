@@ -1,0 +1,23 @@
+{
+  "name": "advent-of-code-2024",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "run": "npm run build && node index.mjs"
+  },
+  "author": "Aleksi Kallio <aleksi@kallio.cloud>",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@clack/core": "^0.3.5",
+    "@clack/prompts": "^0.8.2",
+    "commander": "^12.1.0",
+    "typescript": "^5.7.2"
+  },
+  "devDependencies": {
+    "@tsconfig/node18": "^18.2.4",
+    "@types/node": "^22.10.1"
+  }
+}
