@@ -4,6 +4,7 @@ import { day1_1, day1_2 } from "./day1.mjs";
 import { day2_1, day2_2 } from "./day2.mjs";
 import { day3_1, day3_2 } from "./day3.mjs";
 import { day4_1, day4_2 } from "./day4.mjs";
+import { day5_1, day5_2 } from "./day5.mjs";
 import { readFileSync } from "fs";
 
 interface FunctionMap {
@@ -23,6 +24,7 @@ const FUNCTION_MAP: FunctionMap[] = [
   { day: '2', function1: day2_1, function2: day2_2, input: 'day2.txt' },
   { day: '3', function1: day3_1, function2: day3_2, input: 'day3.txt' },
   { day: '4', function1: day4_1, function2: day4_2, input: 'day4.txt' },
+  { day: '5', function1: day5_1, function2: day5_2, input: 'day5.txt' },
 ];
 
 const getDays = (): { label: string, value: string}[] => {
